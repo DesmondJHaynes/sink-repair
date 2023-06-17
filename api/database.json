@@ -1,0 +1,24 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude Vogel"
+    }, {
+      "id": 2,
+      "name": "Merle Vogel"
+    }, {
+      "id": 3,
+      "name": "Marcos Vogel"
+    }
+  ],
+  "completions": [],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    }
+  ]
+}

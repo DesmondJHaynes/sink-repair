@@ -1,0 +1,23 @@
+.serviceForm {
+    /* border: solid red 1px; */
+    width: min(50vw, 40rem);
+
+}
+
+.field {
+    /* border: dotted blue 1px; */
+    display: grid;
+    grid-template-columns: auto;
+    gap: .2em;
+    margin-bottom: 10px;
+}
+
+    /* ^note that this is a child element grid, which would essently be a grid inside a grid, but because each element is a <div> with a display of block, each label input group is already on it's own line, which is what we wanted in this scenario, so there was no reason to put display grid on the main container element, unless we wanted a different row/column style */
+
+
+#submitRequest {
+    color: white;
+    background-color: #464EA0;
+    margin: 15px 0;
+    width: 9rem;
+}
